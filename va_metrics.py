@@ -17,8 +17,8 @@ drugs = {
     'terfenadine': '9',
     'verapamil': '45'
 }
-path = "/Users/sofiestubo/Documents/CS/MSc/project/data_convertion/va_data-main"
-with open("va_metrics.csv", "w") as metrics:
+path = "/Users/sofiestubo/Documents/CS/MSc/project/data_convertion/va_data-main/50-150%"
+with open("va_metrics-50-150.csv", "w") as metrics:
     metrics.write("Param#,Peak Voltage,RMP,Max Upstroke Velocity,APD1,APD2,APD3,Tri90-40,CTD90,CTD50,CaTamp,CaTmax,CaiD,EMw,qNet,EAD,Depolarization,Index,GNa,GNaL,Gto,GKr,GKs,GK1,Gncx,Pnak,PCa,drug,cnet,dose")
     metrics.write('\n')
     print(os.listdir(path + '/' + 'sotalol'))
